@@ -1,0 +1,75 @@
+.Navbar_container{
+    position: relative;
+ display:flex;
+ width: 80%;
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+ margin:auto;
+ height: 5rem;
+}
+.Sneaker{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    flex: 1;
+}
+.items{
+flex: 1;
+padding: 1.7rem;
+justify-content: space-evenly;
+color: #828282;
+}
+.avatar img{
+   width: 3rem;
+   /* size:10px; */
+   position: relative;
+   float: right;
+}
+.contact{
+    flex: 40;
+}
+.cart img{
+    cursor: pointer;
+    padding-right:3rem;
+    padding-top: 1.4rem;
+}
+
+.navshow{
+    display: block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    top: 4rem;
+    width: 20rem;
+    background-color: white;
+    border-radius:1rem;
+    font-size: 1.3rem;
+    
+
+    }
+    .Navbar_container .cart{
+        position: relative;
+        z-index: 223;
+    }
+    .navhide{
+        display: none;
+    }
+    .checkout{
+        cursor: pointer;
+       background-color:#f08024 ;
+       font-size: larger;
+       font-weight: bolder;
+       padding:.5rem;
+       text-align: center;
+       border-radius: .5rem;
+    }
+    .navshow div img{
+        width: 4rem;
+    }
+    .detail_title{
+        /* border: 1px solid red; */
+        position:absolute;
+        right: .5rem;
+        top: 4rem;
+      
+    }
